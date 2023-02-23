@@ -1,0 +1,30 @@
+CREATE TABLE shoe_store (id INTEGER PRIMARY KEY, item TEXT, gender TEXT, color TEXT, price INTEGER);
+
+
+INSERT INTO shoe_store VALUES (1, "Running", "Mens","Black",50);
+INSERT INTO shoe_store VALUES (2, "Running", "Mens", "White",50);
+INSERT INTO shoe_store VALUES (3, "Running", "Womens","Black",50);
+INSERT INTO shoe_store VALUES (4, "Running", "Womens","White",50);
+
+INSERT INTO shoe_store VALUES (5, "Dress", "Mens","Black",80);
+INSERT INTO shoe_store VALUES (6, "Dress", "Mens","White",80);
+INSERT INTO shoe_store VALUES (7, "Dress", "Womens","Black",80);
+INSERT INTO shoe_store VALUES (8, "Dress", "Womens","White",80); 
+
+INSERT INTO shoe_store VALUES (9, "Heels", "Womens","Black",95);
+INSERT INTO shoe_store VALUES (10, "Heels", "Womens","White",95);
+
+INSERT INTO shoe_store VALUES (11, "Tennis", "Mens","Black",95);
+INSERT INTO shoe_store VALUES (12,"Tennis","Mens","White",95);
+INSERT INTO shoe_store VALUES (13,"Tennis","Womens","Black",90);
+INSERT INTO shoe_store VALUES (14,"Tennis","Womens","White",90);
+
+INSERT INTO shoe_store VALUES (15,"Slippers","Mens","All Colors",30);
+INSERT INTO shoe_store VALUES (16,"Slippers","Womens","All Colors",30);
+
+INSERT INTO shoe_store VALUES (17,"Socks","Mens","All Colors",15);
+INSERT INTO Shoe_store VALUES (18,"Socks","Womens","All Colors",15);
+
+SELECT AVG(price) FROM shoe_store WHERE price > 50
+
+
