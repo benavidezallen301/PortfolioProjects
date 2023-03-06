@@ -1,10 +1,4 @@
-/* Put your data in here and query it! */
 
-/* Put your data in here and query it! */
-
-/* Put your data in here and query it! */
-
-/* Put your data in here and query it! */
 CREATE TABLE superbowls(
   Date      TEXT PRIMARY KEY,
   SB         TEXT,
